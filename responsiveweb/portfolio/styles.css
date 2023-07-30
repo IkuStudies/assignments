@@ -1,0 +1,76 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+
+/* Welcome Section styles */
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+#welcome-section h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+/* Projects Section styles */
+#projects {
+  padding: 40px;
+}
+
+.project-tile {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-tile h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.project-tile p {
+  color: #555;
+}
+
+.project-tile a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Add responsive styles for smaller screens here */
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+    background-color: #555;
+  }
+
+  #navbar a {
+    padding: 10px;
+  }
+}
