@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header id="header">
+    <img id="header-img" src="https://logowik.com/content/uploads/images/275_rolex.jpg" alt="Logo">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#section1">Watches</a>
+      <a class="nav-link" href="#section2">Contact</a>
+      <a class="nav-link" href="#section3">Order</a>
+    </nav>
+  </header>
+
+<!-- Video Section -->
+<section id="section1">
+  <h2>What makes a Rolex?</h2>
+  <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/OE0E8BmrvnI" frameborder="0" allowfullscreen></iframe>
+</section>
+    </video>
+  </section>
+
+  <!-- Form Section -->
+  <section id="section2">
+    <h2>Contact Us</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+      <label for="email">Email:</label>
+      <input id="email" type="email" name="email" placeholder="Enter your email" required>
+      <input id="submit" type="submit" value="Submit">
+    </form>
+  </section>
+
+  <!-- Additional Sections -->
+  <section id="section3">
+    <h2>Order</h2>
+    <!-- Add content for Section 3 here -->
+  </section>
+
+  <!-- CSS Flexbox and Media Query -->
+  <style>
+    /* Apply CSS Flexbox */
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Define Media Query */
+    @media screen and (max-width: 768px) {
+      /* Add responsive styles for smaller screens here */
+    }
+  </style>
+</body>
+</html>
